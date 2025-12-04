@@ -10,7 +10,7 @@ int main() {
     last = num % 10;      // last digit
     first = num;
 
-    while (first >= 10) { // extract first digit
+    while (first >= 10) { 
         first /= 10;
     }
 
