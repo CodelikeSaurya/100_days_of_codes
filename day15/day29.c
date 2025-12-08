@@ -2,7 +2,7 @@
 
 int main() {
     int n, i;
-    long long factorial = 1;  // long long to handle big values
+    long long factorial = 1;  
 
     printf("Enter a number: ");
     scanf("%d", &n);
