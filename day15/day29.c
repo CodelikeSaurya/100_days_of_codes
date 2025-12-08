@@ -7,7 +7,6 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    // Factorial is not defined for negative numbers
     if (n < 0) {
         printf("Factorial of a negative number doesn't exist.\n");
     } else {
