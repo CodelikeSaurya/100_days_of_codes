@@ -9,7 +9,7 @@ int main() {
     printf("Enter a character: ");
     scanf("%c", &ch);
 
-    // Check character type
+   
     if (ch >= 'A' && ch <= 'Z') {
         printf("The character is an Uppercase Alphabet.\n");
     } else if (ch >= 'a' && ch <= 'z') {
