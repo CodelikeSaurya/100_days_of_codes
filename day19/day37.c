@@ -8,7 +8,7 @@ int main() {
 
     max = (a > b) ? a : b;  
 
-    // Find LCM by checking multiples
+
     while (1) {
         if (max % a == 0 && max % b == 0) {
             lcm = max;
