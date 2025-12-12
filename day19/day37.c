@@ -6,7 +6,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    max = (a > b) ? a : b;  // start from the larger number
+    max = (a > b) ? a : b;  
 
     // Find LCM by checking multiples
     while (1) {
