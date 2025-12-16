@@ -11,7 +11,7 @@ int main() {
     while (temp > 0) {
         digit = temp % 10;
 
-        if (digit % 2 != 0) {  // check odd digit
+        if (digit % 2 != 0) {  
             product *= digit;
             foundOdd = 1;
         }
