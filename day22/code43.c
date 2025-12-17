@@ -11,7 +11,7 @@ int main() {
     while (temp > 0) {
         digit = temp % 10;
         
-        // factorial of digit
+     
         int fact = 1;
         for (int i = 1; i <= digit; i++)
             fact *= i;
